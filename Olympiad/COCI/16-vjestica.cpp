@@ -17,6 +17,11 @@
   
   This problem has taken me 2h. However, I feel like I have mostly spent that doing some technical things and thinking about 
   implementation. So, I think that with some practice I can do such problems in at most 1h.
+  
+  In fact, I have just taken a look at the editorial. It seems that this problem can be done without sparse table (and so without some 
+  strange complexity, I haven't tried to compute it yet, but I am not 100% sure that the complexity is right and that I didn't have
+  luck with the tests). So, there is only a trick with helps you to quickly iterate over the subsets of an arbitrary set. So, I had
+  known that I would have solved it in ~25min, maybe even less.
 **/
 #include<bits/stdc++.h>
 #define maxn 17
