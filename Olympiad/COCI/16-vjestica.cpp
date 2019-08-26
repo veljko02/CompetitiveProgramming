@@ -15,7 +15,7 @@
   4 - faster sparse table, forgot to initialize some basic dp states (e.g. the empty set) (0/160 WA)
   5 - AC
   
-  This problem has taken me 2h. However, I feel like I have mostly spent that doing some technical things and thinking about 
+  This problem has taken me 2h. However, I feel like I mostly spent time doing some technical things and thinking about 
   implementation. So, I think that with some practice I can do such problems in at most 1h.
   
   In fact, I have just taken a look at the editorial. It seems that this problem can be done without sparse table (and so without some 
