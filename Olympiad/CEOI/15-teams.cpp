@@ -6,8 +6,20 @@
     and that has length equal to n+x. One can notice that A is irrelevant, I have just formulated dp state that way because I haven't 
     come up with any better explanation. Anyway, now the idea is to go through the given array and fix the point where some 
     lexicographically smaller array B (that is also a partition of the people into teams) differs from the given array. Then we can
-    easily get how many such arrays exist using our dp. Also, dp has too many states so we have to compute it gradually during the fixing
-    phases.
+    easily get how many such arrays exist using our dp. Also, dp has too many states so we have to compute it gradually during the 
+    fixing phases. 
+    
+    SUBMISSIONS
+    1 - I made a stupid mistake so it worked only when the array in the input is 1 2 3 4 ... n and when n<=1000 (10/100 WA)
+    2 - I fixed the mistake (just changed a letter) and then it worked when n<=1000 (70/100 WA)
+    3 - I did dp gradually but I forgot to alter maxn, so it still worked just for n<=1000 (70/100 WA)
+    4 - I altered maxn (AC)
+    
+    This problem was easy. I basically solved it in ~10min. However, I firstly overlooked that I couldn't just compute the 
+    number of different partition using dp and then using it get the result. So, I typed that even though it was obvious that it would
+    not work. So, I spent ~30min coding and thinking about that idea. Then, I realized that it was wrong and then easily altered it and
+    got AC after additional ~40min. So, I think that with some practice I can do such problems in ~30min. It seems that I should stop 
+    completely following my intuition and think a bit more before starting to code something.
 **/
 #include<bits/stdc++.h>
 #define maxn 10005
