@@ -43,10 +43,12 @@ So, we are doing the following:
 2) Check whether it is a winning programme ((2*m/n)^2 is small within the given constraints)
 3) Now there are two cases:
    3.1) v is a losing programme
-    - Then, we can just run the algorithm for checking 
+    - Then, we can just run the algorithm for checking whether a node is winning (on all the nodes from which an edge comes to v, observation 2)
+   3.2) v is a winning programme
+    - Then, in fact we can do the same, but I decided to do modified version of testing whether a node is winning.
 
-
-
+NOTE: I somehow overlooked the fact that this algorithm is a bit slower than it was allowed (but it is probably rather hard to create a
+test for which it is slower than allowed). However, it passed all the tests.
 **/
 #include<bits/stdc++.h>
 #define maxn 100005
