@@ -9,7 +9,7 @@
 using namespace std;
 
 /**
-    We use some over supersets technique in order to compute how many ways there are to choose a set s.t. all its elements' masks contain
+    We use sum over supersets technique in order to compute how many ways there are to choose a set s.t. all its elements' masks contain
     some fixed x as a submask (that number is uni[x]). Then, we use some over subsets again and inclusion-exclusion principle in order
     to compute how many ways there are to choose a set s.t. and of all its elements is exactly some fixed number x (that number is also 
     stored in uni[x] since we have to use the previous value to compute it).
