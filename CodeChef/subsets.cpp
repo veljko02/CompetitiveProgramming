@@ -14,7 +14,7 @@ We can do that just by passing over all the nodes in the second half and checkin
 in the already fixed subset of the first half. Then all it remains for us to do is to check how many subsets of those vertices in the 
 second half are complete in fact and we can do that by SOS dp in O(n*2^(n/2)).
 
-REMARK: We can check whether there is an edge between two node by checking whether their product is divisible by some prime number up to
+REMARK: We can check whether there is an edge between two nodes by checking whether their product is divisible by some prime number up to
 the third root of it.
 
 **/
