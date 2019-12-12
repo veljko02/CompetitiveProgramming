@@ -4,8 +4,7 @@ We are using the following dp on bitmasks:
   dp[x] = the maximum period of time that the cow can continuously watch movies if she watches only the movies with the corresponding 
           bits active
           
-Now, we can just pass through all the states and take the minimum of the bits activated in the states which result in a period longer 
-than L.
+Now, we can just pass through all the states and take the minimum of the bits activated in the states which result in a period >= L.
 */
 
 #include<bits/stdc++.h>
