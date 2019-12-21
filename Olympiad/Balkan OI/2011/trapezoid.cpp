@@ -8,7 +8,7 @@ points and do the following:
 1) Our current point is of the "left" type
   We compute the two mentioned values for that trapezoid.
 2) Our current point is of the "right" type
-  We just update our data structure with the already computed two values for that interval. 
+  We just update our data structure with the already computed two values for that trapezoid. 
 */
 
 #include <bits/stdc++.h>
