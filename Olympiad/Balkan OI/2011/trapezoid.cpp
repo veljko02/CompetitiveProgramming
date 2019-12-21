@@ -1,6 +1,6 @@
 /*
-So, the idea is to compute the maximum cardinality of a valid set that contains a trapezoid for each given trapezoid. We also compute
-the number of way to achieve that cardinality. We do that using dp, sweep line and some data structure.
+So, for each trapezoid we want to compute the maximum cardinality of a valid set of trapezoid such thar our trapezoid is the rightmost.
+We also compute the number of way to achieve that cardinality. We do that using dp, sweep line and some data structure.
 So, we create points (a,c) and (b,d) out of each trapezoid and sort them according to their x-coordinate in increasing order. Also, we 
 should remember whether the point represent the left side of a rectangle (a,c) or the right (b,d). Now, we iterate over those sorted 
 points and do the following:
