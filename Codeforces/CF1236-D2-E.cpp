@@ -25,6 +25,10 @@
   that we currently deal with the i-th obstacle. We can just set n + 2*i - 1 to be the parent of posl[a[i] - i] and posl[a[i] - i - 1].
   We also appropriately update posl array. At the end we just have to see what the furthest descedant of k for each 1<=k<=n, is and see
   what its type is, then we can easily compute the desired right bound and get the solution.
+  
+  REMARK: One can also notice that the rigthmost/leftmost positions are in increasing order so it is possible to do the problem without
+  	any data strcuture, even dsu. Also, I did not mention, but a few elements were added to our initial array in this solution just
+	to make it easiser to deal with the bounds, the corresponding positions for 1 and n.
 **/
 #include<bits/stdc++.h>
 #define maxn 100005
