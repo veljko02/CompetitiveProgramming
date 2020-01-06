@@ -4,7 +4,7 @@
     dp[i][j][minn][maxx] = the longest increasing subsequence made of a[i,...,j] such that the first element is >= minn 
                            and the last is <= maxx
                            
-  It is not hard to compute a state from the previous once, but it is easy to make a mistake.
+  It is not hard to compute a state from the previous ones, but it is easy to make a mistake.
 **/
 
 #include<bits/stdc++.h>
